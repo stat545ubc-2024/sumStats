@@ -1,0 +1,23 @@
+Package: sumStats
+Title: Calculate Summary Statistics by Group
+Version: 0.1.0
+Authors@R: 
+    person("Katia", "Rosenflanz", , "katiar99@student.ubc.ca", role = c("aut", "cre"))
+Description: The goal of sumStats is to provide a simple function, sum_stats(), 
+    which groups a dataset based on an input column and then performs summary statistics 
+    on an input numeric variable within the dataset. 
+    This function is useful for users that want to quickly obtain the mean, min, max, and standard deviation 
+    of a numeric variable for separate groups within their data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    rlang,
+    dplyr,
+    stats
+Suggests:
+    palmerpenguins,
+    datateachr,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
